@@ -7,7 +7,7 @@ DETALLE_APORTE_SBIF (información detallada)
 RESUMEN_APORTE_SBIF (información totalizada por mes y tipo)
 
 
-Características principales
+Características principales:
 
 Uso de VARIABLE BIND para definir el período a procesar.
 
@@ -26,7 +26,7 @@ Commit condicionado mediante contadores de control.
 Manejo de excepciones predefinidas, no predefinidas y definidas por el usuario.
 
 
-Ejecución
+Ejecución:
 
 Definir el período a procesar y ejecutar el bloque:
 
@@ -34,6 +34,6 @@ VARIABLE b_periodo NUMBER
 EXEC :b_periodo := 2026
 
 
-Verificación
+Verificación:
 
 Al finalizar la ejecución, se incluyen consultas SELECT para verificar los datos generados en las tablas de detalle y resumen.
